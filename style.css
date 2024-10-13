@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -72,3 +73,79 @@ header {
         align-items: center;
     }
 }
+=======
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.search-bar input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.weather-info, .forecast, .map-container {
+    padding: 20px;
+    text-align: center;
+}
+
+#map {
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Forecast Cards */
+#forecast-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.forecast-card {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 120px;
+}
+
+.theme-toggle button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    #forecast-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+>>>>>>> 2a0143f52b446043696f421a23e3e58682ab88ef

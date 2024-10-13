@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,3 +38,44 @@
     </main>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+        <div class="theme-toggle">
+            <button id="dark-mode-toggle">Toggle Dark Mode</button>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="city-search" placeholder="Search for a city...">
+            <ul id="suggestions"></ul>
+        </div>
+    </header>
+    
+    <main>
+        <div class="weather-info">
+            <h2 id="city-name"></h2>
+            <p id="temp"></p>
+            <p id="humidity"></p>
+            <p id="wind-speed"></p>
+        </div>
+        <div class="forecast">
+            <h3>5-Day Forecast</h3>
+            <div id="forecast-cards"></div>
+        </div>
+        <div class="map-container">
+            <h3>City Location</h3>
+            <div id="map"></div>
+        </div>
+    </main>
+</body>
+</html>
+>>>>>>> 2a0143f52b446043696f421a23e3e58682ab88ef
